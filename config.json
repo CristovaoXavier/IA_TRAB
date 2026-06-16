@@ -1,0 +1,67 @@
+{
+    "assistente": {
+        "nome": "PalcoBot",
+        "descricao": "Assistente Virtual para Automação de Palcos e Eventos",
+        "versao": "1.0.0"
+    },
+    "acoes": [
+        {
+            "nome": "abrir",
+            "dispositivos": ["cortina", "cortinas"],
+            "descricao": "Abre as cortinas principais do palco",
+            "modulo": "cortinas",
+            "mensagem": "Abrindo as cortinas principais do palco..."
+        },
+        {
+            "nome": "fechar",
+            "dispositivos": ["cortina", "cortinas"],
+            "descricao": "Fecha as cortinas principais do palco",
+            "modulo": "cortinas",
+            "mensagem": "Fechando as cortinas principais do palco..."
+        },
+        {
+            "nome": "ativar",
+            "dispositivos": ["fumaça", "fumaca", "maquina"],
+            "descricao": "Ativa a máquina de fumaça",
+            "modulo": "maquina_fumaca",
+            "mensagem": "Ativando a máquina de fumaça..."
+        },
+        {
+            "nome": "desativar",
+            "dispositivos": ["fumaça", "fumaca", "maquina"],
+            "descricao": "Desativa a máquina de fumaça",
+            "modulo": "maquina_fumaca",
+            "mensagem": "Desativando a máquina de fumaça..."
+        },
+        {
+            "nome": "descer",
+            "dispositivos": ["telão", "telao", "tela", "telo", "telar", "telom", "telon"],
+            "descricao": "Desce o telão central do palco",
+            "modulo": "telao",
+            "mensagem": "Descendo o telão central..."
+        },
+        {
+            "nome": "subir",
+            "dispositivos": ["telão", "telao", "tela", "telo", "telar", "telom", "telon"],
+            "descricao": "Sobe o telão central do palco",
+            "modulo": "telao",
+            "mensagem": "Subindo o telão central..."
+        },
+        {
+            "nome": "acionar",
+            "dispositivos": ["emergência", "emergencia", "protocolo", "emergencia", "emergencial", "emergencias", "emergente", "emergen"],
+            "descricao": "Aciona o protocolo de iluminação de emergência",
+            "modulo": "emergencia",
+            "mensagem": "ACIONANDO PROTOCOLO DE ILUMINAÇÃO DE EMERGÊNCIA!"
+        }
+    ],
+    "sinonimos": {
+        "abrir": ["abrir", "abre"],
+        "fechar": ["fechar", "fecha"],
+        "ativar": ["ativar", "ativa", "ligar", "liga"],
+        "desativar": ["desativar", "desativa", "desligar", "desliga"],
+        "descer": ["descer", "desce", "baixar", "baixa", "desci", "abaixar", "abaixa"],
+        "subir": ["subir", "sobe", "levantar", "levanta", "subi"],
+        "acionar": ["acionar", "aciona", "ativar", "emergência", "emergencia", "emergencias"]
+    }
+}

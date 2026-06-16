@@ -1,0 +1,9 @@
+transformers
+torchaudio==2.10.0
+torch
+soundfile
+sounddevice
+nltk
+gtts
+pydub
+numpy
